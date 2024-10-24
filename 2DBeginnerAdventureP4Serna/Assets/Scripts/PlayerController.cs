@@ -18,8 +18,8 @@ public class PlayerController : MonoBehaviour
 
 
         Vector2 position = transform.position;
-        position.x = position.x + 7.0f * horizontal * Time.deltaTime;
-        position.y = position.y + 7.0f * vertical * Time.deltaTime; ;
+        position.x = position.x + 4.0f * horizontal * Time.deltaTime;
+        position.y = position.y + 4.0f * vertical * Time.deltaTime; ;
 
         transform.position = position;
         
